@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Apoio Online</title>
+  <link rel="stylesheet" type="text/css" href="_css/style.css" />
+  <link rel="icon" href="_css/Images/logo-Unicom.ico" type="image/x-icon" />
+
+</head>
+
+
+<body>
+
+  <table>
+
+  </table>
+
+  <nav id="menu">
+    <a onclick="changePage('_pages/home.html')" href="#" class="button">Home</a>
+    <a onclick="changePage('_pages/ferramentas.html')" href="#" class="button">Ferramentas</a>
+    <a onclick="changePage('_pages/flexvision.html')" href="#" class="button">Flexvision</a>
+    <a onclick="changePage('_pages/semParar.html')" href="#" class="button">SemParar</a>
+    <a onclick="changePage('_pages/liberty.html')" href="#" class="button">Liberty</a>
+    <a onclick="changePage('_pages/hub.html')" href="#" class="button">Hub</a>
+    <a onclick="changePage('_pages/conectcar.html')" href="#" class="button">ConectCar</a>
+    <a onclick="changePage('_pages/cotato.html')" href="#" class="button">Contato</a>
+  </nav>
+
+
+  <div id="center">
+
+
+    <iframe id="frame" src="_pages/home.html">
+      	<p>Your browser does not support iframes.</p>
+    	</iframe>
+
+
+
+  </div>
+
+  <footer id="foot">
+    Copyright Gregory Lacerda
+
+    </div>
+
+
+</body>
+
+<script>
+  function changePage(pagina) {
+    document.getElementById("frame").src = pagina;
+
+  }
+</script>
+
+
+</html>

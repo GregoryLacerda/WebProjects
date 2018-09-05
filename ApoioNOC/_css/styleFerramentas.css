@@ -1,0 +1,26 @@
+html, body{
+   background-color: #141618;
+   height: 95%;
+}
+#emails{
+  position: absolute;
+  width: 50%;
+  margin: 2px 2px 2px 2px;
+  border-radius: 6px 6px 6px 6px;
+  border: 5px solid #f02511;
+  color: white;
+  font-family: "Museo 500";
+}
+h1{
+  text-align: center;
+}
+li{
+  list-style-type: none;
+  color: #f02511;
+}
+p.tittle{
+  text-align: left;
+}
+b{
+  color: white;
+}
