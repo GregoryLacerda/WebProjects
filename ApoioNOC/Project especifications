@@ -1,9 +1,8 @@
 Home:
-  - Avisos
   - Introdução
+  - Avisos
+  - Manutenção
   - Login
-  - Cadastro de usuarios apenas admin
-
 
 Ferramentas:
   - Urls
@@ -40,3 +39,11 @@ Hub:
 
 Contato:
   - Envio de Sugestões e Reclamações
+
+Perfil:
+  - Cadastro de usuarios apenas admin
+  - Informações e Alterações
+  - Usuarios e Senhas
+
+Observações:
+  - Cadastro de usuarios apenas admin

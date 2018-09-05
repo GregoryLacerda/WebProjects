@@ -3,6 +3,17 @@ html, body{
    height: 95%;
 }
 
+#intro{
+  position: absolute;
+  width: 50%;
+  height: 40%;
+  left: 2%;
+  top: 5%;
+  margin: 2px 2px 2px 2px;
+  color: white;
+  font-family: "Museo 500";
+}
+
 #manuten{
 
   position: absolute;
